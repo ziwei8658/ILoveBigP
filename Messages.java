@@ -14,6 +14,8 @@ public class Messages {
         for(int i=0;i<amount;i++)
         {
             System.out.print(sign);
+   
         }
+        System.out.println();
     }
 }

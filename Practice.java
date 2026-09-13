@@ -11,7 +11,7 @@ public class Practice {
         out.println("input num of rows");
         int rows = sc.nextInt();
 
-        for(int i=0; i<rows;i++)
+        for(int i=1; i<rows+1;i++)
         {
             Messages bigP = new Messages(i,str);
             bigP.printMessage();
